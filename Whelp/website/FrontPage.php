@@ -1,3 +1,4 @@
+<?php include "connect.php" ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,7 +12,6 @@
 		<link href="http://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  	    <script type="text/javascript" language="javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
-		<?php include "connect.php" ?>
 	</head>
 
 	<body>	
@@ -114,10 +114,10 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-		
 		<!-- Small modal -->
-    
-
+			      
+		<?php include "veitingastadir.php" ?>
+   
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap.js"></script>
