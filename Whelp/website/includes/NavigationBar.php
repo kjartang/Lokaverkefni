@@ -1,4 +1,4 @@
-	<?php include "connect.php" ?>
+<?php include "connect.php" ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,6 +11,7 @@
  	    <link rel="stylesheet" type="text/css" media="all" href="css/global.css">
 		<link href="http://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 	    <script type="text/javascript" language="javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
 	</head>
 
 	<body>	
@@ -60,40 +61,11 @@
 		          <input type="text" class="form-control" placeholder="Veitingastadur..">
 		        </div>
 		        <button type="submit" class="btn btn-default">Leita</button>
-		      </form>		     
+		      </form>
 		      <ul class="nav navbar-nav navbar-right">
-		      	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Nýskrá</button>
-		      	     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="myModalLabel">Nýskráning</h4>
-                          </div>
-                          <div class="modal-body">
-                            <form action="nyskra.php" method="POST" class="form-signin">
-                                <label for="name" class="sr-only">Nafn</label>
-                                <input name="name" type="text" id="name" class="form-control" placeholder="Nafn" required autofocus>
-                                <label for="username" class="sr-only">Notendanafn</label>
-                                <input name="username" type="text" id="username" class="form-control" placeholder="NotendaNafn" required autofocus>
-                                <label for="inputEmail" class="sr-only">Netfang</label>
-                                <input name="email" type="text" id="email" class="form-control" placeholder="Netfang" required autofocus>
-                                <label for="inputPassword" class="sr-only">Lykilorð</label>
-                                <input name="password" type="password" id="password" class="form-control" placeholder="Lykilorð" required="10">
-                              <!--  <label for="inputPassword" class="sr-only">Staðfesta Lykilorð</label> -->
-                               <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Staðfesta lykilorð" required="10"> -->
-                                <button class="btn btn-lg btn-primary btn-block" type="submit">Innskrá</button>       
-                            </form>
-                           <div class="modal-footer">
-				              <div class="modal-footer">
-				                <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
-				              </div>
-		              	  </div>
-                          </div>
-                    </div>
-                  </div>
-                </div>
-				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Innskrá</button>
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		            Innskrá
+		        </button>
 		        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		          <div class="modal-dialog">
 		            <div class="modal-content">
@@ -111,10 +83,33 @@
 		                </form>
 		              </div>
 		              <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
+		                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+				           Nýskrá
+				        </button>
+				      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			          <div class="modal-dialog">
+			            <div class="modal-content">
+			              <div class="modal-header">
+			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                <h4 class="modal-title" id="myModalLabel">Nýskráning</h4>
+			              </div>
+			              <div class="modal-body">
+			                <form class="form-signin">
+			                	<label for="inputEmail" class="sr-only">Netfang</label>
+			                	<input type="email" id="inputEmail" class="form-control" placeholder="Netfang" required autofocus>
+			                	<label for="inputPassword" class="sr-only">Lykilorð</label>
+			                	<input type="password" id="inputPassword" class="form-control" placeholder="Lykilorð" required="10">
+			                	<button class="btn btn-lg btn-primary btn-block" type="submit">Innskrá</button>
+			                </form>
+			              </div>
 			              <div class="modal-footer">
 			                <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
-			              </div>
+
 		              </div>
+		            </div>
+		          </div>
+		        </div>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -123,7 +118,9 @@
 		<!-- Small modal -->
     
 
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script src="//code.jquery.com/jquery.js"></script>
 	</body>
 </html>
