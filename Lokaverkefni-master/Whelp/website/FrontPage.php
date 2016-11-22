@@ -121,7 +121,7 @@
 		</nav>
 		<!-- Small modal -->
     
-
+		<?php include"veitingastadir.php" ?>
 
 		<script src="js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery.js"></script>

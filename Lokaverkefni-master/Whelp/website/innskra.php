@@ -9,9 +9,9 @@
 
 	$result = mysqli_query($conn, "SELECT * FROM user WHERE username ='$username' AND password = '$password'") or die("Failed to query database ".mysqli_error($conn));
 	$row = mysqli_fetch_array($result);
-	if ($row['username'] == $username && $row['password'] == $password )
+	if ($row['username'] == $username && $row['password'] == $password)
 	{
-		echo "Login Successful! Welcome  ".$row['username'];
+		header("Location: FrontPage.php");
 	}
 	else {
 		echo "Failed to login!";
