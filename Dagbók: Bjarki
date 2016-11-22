@@ -1,0 +1,9 @@
+Activity skrá:
+D1:Ræddum um hvernig verkefni myndi hennta okkur og hvað væri mögulegt.
+D2:Sættum okkur við Yelp.com endurgjörningu sem verður Íslenskt og tengir meira við veitingarstaði.
+D3:Setti up bootstrap og gerði header sem er mobile friendly.
+D4:Setti upp login og signup takka, svo tengum við þá við DB.
+D5:Byrjaði að vinna með Upload feature sem tengist við folder og folder sem tengist svo við DB.
+D6: Áframhald með upload feature. Lennti í veseni.
+D7: Upload feature komið, er að vinna við að setja upp login availability fyrir upload, svo þeir sem eru loggaðir inn geta skrifað review
+og uploadað image af viðkomandi stað.
