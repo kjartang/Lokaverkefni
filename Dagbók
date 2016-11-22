@@ -1,7 +1,17 @@
 Dagur 1 : Ég og Bjarki vorum að hugsa um hugmyndir um hvað við ætluðum að gera, og komumst að því að gera vefsíðu.
 
-Dagur 2 : Töluðum betur og ákvaðum að gera íslenska útgáfu af Yelp.com sem er síða með alskonar upplýsingar um veitingastaði, og
+Dagur 2 : Töluðum betur og ákvaðum að gera íslenska útgáfu af Yelp.com sem er síða með alskonar upplýsingum um veitingastaði, og
 byrjaði að gera gagnagrunninn í MYSQL.
 
-Dagur 3 :  Vann meira á gagnagrunninnum, setti inn review töflu og tengdi svo vefsíðuna við gagnagrunninn með php (og setti upp 
+Dagur 3 :  Vann meira á gagnagrunninnum, setti inn review töflu og tengdi svo vefsíðuna við gagnagrunninn með PHP (og setti upp 
 Sublime Text tengingu við serverinn), og breytti útlitinu á html.
+
+Dagur 4 : Gerði PHP kóða til að færa gögn frá gagnagrunn yfir á síðuna, tók langan tíma fyrir það til að virka, og bættum inn nýskráningu
+og innskráningu.
+
+Dagur 5 : Vann á nýskráningu, var vandamál með MYSQLI skipunirnar, var að flakast milli að nota PDO og MYSQLI og endaði með því að ná
+virkni með MYSQLI og kláraði nýskráninguna.
+
+Dagur 6 : Vann á innskráningunni og kláraði það, vann svo smá í útlitinu.
+
+Dagur 7 :
