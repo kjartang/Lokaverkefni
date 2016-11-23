@@ -7,3 +7,4 @@ D5:Byrjaði að vinna með Upload feature sem tengist við folder og folder sem 
 D6: Áframhald með upload feature. Lennti í veseni.
 D7: Upload feature komið, er að vinna við að setja upp login availability fyrir upload, svo þeir sem eru loggaðir inn geta skrifað review
 og uploadað image af viðkomandi stað.
+D8:Var að vinna í searchbar functionality. Lennti í errors, er að vinna í að laga það. (Searchbarinn er tengdur við database).
