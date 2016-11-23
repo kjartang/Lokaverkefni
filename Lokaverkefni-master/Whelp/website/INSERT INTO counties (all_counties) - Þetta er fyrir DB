@@ -1,0 +1,4 @@
+INSERT INTO counties (all_counties)
+VALUES ('Rykjavik','Kopavogur','Hafnafjordur','Akureyri','Reykjanesbaer','Gardabaer','Mosfellsbær'
+'Árborg','Akranes','Fjarðabyggð','seltjarnarnes','Vestmannayjar','Skagafjörður','borgarfjörður','ísfjarðarbær',
+'fljótsdalshérað','Grindavík','Norðurþing','Hveragerði','Hornafjörður','Fjallabyggð','Dalvík','Snæfellsnes','sandgerði','Sandgerði','Rangársþing','Gaður','Húnaþing','Vogar','Stykkishólmur','Eyjafjarðarsveit','Vesturbyggð','Bláskógabyggð','Þingeyjarsveit','Bolungarvík','Grundarfjarðarbær','Blönduós','Hrunamannahreppur','Dalabyggð','Seyðisfjörður','Vopnafjörður','Hvalfjörður','Flóahreppur','Hörgársveit','Mýrdalshreppur','Gnúpahreppur','Langanes','Skagaströnd','Skaftaárshreppur','Strandabyggð','Grímsnes','Djúpavogur','Húnvatn','Helgafell');
